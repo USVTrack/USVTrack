@@ -26,7 +26,7 @@
 * We build corresponding benchmarks and evaluate popular algorithms for object detection and object tracking tasks.
 
 ### USV Setup
-<img src='images/USVTrack-USV.png' width=650 /> 
+<img src='images/USVTrack-USV.png' width=400 /> 
 
 
 ### Dataset Structure
