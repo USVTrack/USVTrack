@@ -13,7 +13,7 @@
 - [Citation](#citation)
 
 ## Changelog
-- :star2: March 6, 2025: USVTrack dataset released at [Baidu Netdisk](https://pan.baidu.com/s/1N7EGmTuWsnT_INLN9VoE1w?pwd=data), [Google Drive 1](https://drive.google.com/drive/folders/1KJ92O-SQ0Mow1SNqA3N1_zQYYA3zlOUK?usp=sharing), [Google Drive 2](https://drive.google.com/drive/folders/1XnvjnlZcvGqdRTeK9WZkrCh-rwwAK_Ql?usp=sharing)
+- :star2: March 6, 2025: USVTrack dataset is released at [Baidu Netdisk](https://pan.baidu.com/s/1N7EGmTuWsnT_INLN9VoE1w?pwd=data), [Google Drive 1](https://drive.google.com/drive/folders/1KJ92O-SQ0Mow1SNqA3N1_zQYYA3zlOUK?usp=sharing), [Google Drive 2](https://drive.google.com/drive/folders/1XnvjnlZcvGqdRTeK9WZkrCh-rwwAK_Ql?usp=sharing)
 
 ## Dataset
 ### Introduction
@@ -33,12 +33,27 @@
 
 ```
 USVTrack (root)
-  - image # RGB images
-    - folder
-      - 000001.jpg
+  - images # RGB images
+    - train
+      - folder
+        - 000001.jpg
+        - 000002.jpg
+        - xxx
+    - test
+      - folder
+        - 000001.jpg
+        - 000002.jpg
+        - xxx
   - radar # radar files
     - folder
       - 000001.csv
+
+  - YOLO # YOLO format for vision detection
+    - images # put all images here
+    - labels # all labels for detection
+    - class.txt
+    - train.txt
+    - test.txt
 
 ```
 
