@@ -28,8 +28,10 @@
 <img src='images/1.gif' width=24% /> <img src='images/2.gif' width=24% /> <img src='images/3.gif' width=24% /> <img src='images/4.gif' width=24% /> 
 <img src='images/5.gif' width=24% /> <img src='images/6.gif' width=24% /> <img src='images/7.gif' width=24% /> <img src='images/8.gif' width=24% /> 
 <img src='images/9.gif' width=24% /> <img src='images/10.gif' width=24% /> <img src='images/11.gif' width=24% /> <img src='images/12.gif' width=24% /> 
+
+
 ### USV Setup
-<img src='images/USVTrack-USV.png' width=400 /> 
+<img src='images/USV-E.png' width=98% /> 
 
 
 ### Dataset Structure
