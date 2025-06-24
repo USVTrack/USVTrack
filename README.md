@@ -13,7 +13,8 @@
 - [Citation](#citation)
 
 ## Changelog
-- :star2: March 6, 2025: USVTrack dataset is released at [Baidu Netdisk](https://pan.baidu.com/s/1N7EGmTuWsnT_INLN9VoE1w?pwd=data), [Google Drive 1](https://drive.google.com/drive/folders/1KJ92O-SQ0Mow1SNqA3N1_zQYYA3zlOUK?usp=sharing), [Google Drive 2](https://drive.google.com/drive/folders/1XnvjnlZcvGqdRTeK9WZkrCh-rwwAK_Ql?usp=sharing)
+- :star2: June 16, 2025: USVTrack dataset is accepted by IROS ([arXiv](https://arxiv.org/abs/2506.18737))
+- March 6, 2025: USVTrack dataset is released at [Baidu Netdisk](https://pan.baidu.com/s/1N7EGmTuWsnT_INLN9VoE1w?pwd=data), [Google Drive 1](https://drive.google.com/drive/folders/1KJ92O-SQ0Mow1SNqA3N1_zQYYA3zlOUK?usp=sharing), [Google Drive 2](https://drive.google.com/drive/folders/1XnvjnlZcvGqdRTeK9WZkrCh-rwwAK_Ql?usp=sharing)
 
 ## Dataset
 ### Introduction
@@ -133,6 +134,13 @@ Each csv file contains a set of points in a specific timestamp:
 The USVTrack data is published under CC BY-NC-SA 4.0 license, which means that anyone can use this dataset for non-commercial research purposes.
 
 Please use the following citation when referencing
+```
+@INPROCEEDINGS{yao2025usvtrack,
+      title={USVTrack: USV-Based 4D Radar-Camera Tracking Dataset for Autonomous Driving in Inland Waterways},
+      booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+      author={Shanliang Yao and Runwei Guan and Yi Ni and Sen Xu and Yong Yue and Xiaohui Zhu and Ryan Wen Liu},
+      year={2025}
+}
 ```
 
 ```
