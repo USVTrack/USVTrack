@@ -142,6 +142,3 @@ Please use the following citation when referencing
       year={2025}
 }
 ```
-
-```
-
