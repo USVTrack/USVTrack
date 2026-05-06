@@ -14,7 +14,6 @@
 
 ## Changelog
 - :star2: December 11, 2025: USVTrack is published by IROS ([IEEE](https://ieeexplore.ieee.org/document/11246786))
-- :star2: June 16, 2025: USVTrack is accepted by IROS ([arXiv](https://arxiv.org/abs/2506.18737))
 - March 6, 2025: USVTrack dataset is released at [Baidu Netdisk](https://pan.baidu.com/s/1N7EGmTuWsnT_INLN9VoE1w?pwd=data), [Google Drive 1](https://drive.google.com/drive/folders/1KJ92O-SQ0Mow1SNqA3N1_zQYYA3zlOUK?usp=sharing), [Google Drive 2](https://drive.google.com/drive/folders/1XnvjnlZcvGqdRTeK9WZkrCh-rwwAK_Ql?usp=sharing)
 
 ## Dataset
@@ -43,14 +42,18 @@ USVTrack (root)
   - images # RGB images
     - train
       - folder
-        - 000001.jpg
-        - 000002.jpg
-        - xxx
+        - img1 # image frames
+          - 000001.jpg
+          - 000002.jpg
+          - xxx
+        - gt # ground truth for each frame
+          - gt.txt # list as frame_id, object_id, bb_left, bb_top, bb_width, bb_height, active, class_id, visibility
+        - det # ground truth for detection
+          - det.txt # list as frame_id, object_id, bb_left, bb_top, bb_width, bb_height, conf, x, y, z
+        - seqinfo.ini
     - test
       - folder
-        - 000001.jpg
-        - 000002.jpg
-        - xxx
+        
   - radar # radar files
     - folder
       - 000001.csv
@@ -141,8 +144,6 @@ Please use the following citation when referencing
       booktitle={2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
       author={Shanliang Yao and Runwei Guan and Yi Ni and Sen Xu and Yong Yue and Xiaohui Zhu and Ryan Wen Liu},
       year={2025}
-      volume={},
-      number={},
       pages={19016-19023},
       doi={10.1109/IROS60139.2025.11246786}
 }
